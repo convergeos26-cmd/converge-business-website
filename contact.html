@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Converge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+  <div class="container">
+    <!-- LOGO UPDATED WITH LINK -->
+<div class="logo-wrap">
+  <a href="index.html" class="logo-link">
+    <h1 class="logo">Converge</h1>
+    <span class="logo-dot"></span>
+  </a>
+</div>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <nav id="navMenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html" class="btn btn-nav">Get Audit</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <!-- HERO -->
+  <!-- HERO: THE INTAKE -->
+<section class="hero fade-in">
+  <div class="container hero-content" style="text-align: center;">
+    <p class="hero-badge">Forensic Intake</p>
+    <h2>Get Your <span class="glitch-text" data-text="Real ROAS.">Real ROAS.</span></h2>
+    <p class="hero-text" style="margin: 0 auto 30px;">
+      Send your details and we’ll uncover where your ad spend is leaking profit. 
+      Our team will perform a deep-dive analysis of your last 90 days of spend.
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section contact-section fade-in">
+  <div class="container">
+    <div class="contact-grid">
+      
+      <!-- LEFT SIDE: VALUE PROPS -->
+      <div class="contact-info">
+        <p class="section-subtitle">The Truth Audit</p>
+        <h3>What You’ll Get</h3>
+        <p>This is not a sales pitch. It is a forensic breakdown of your tracking infrastructure.</p>
+        
+        <ul class="benefit-list">
+          <li><span>✔</span> True ROAS breakdown</li>
+          <li><span>✔</span> Wasted ad spend identification</li>
+          <li><span>✔</span> Funnel leakage insights</li>
+          <li><span>✔</span> 48-Hour Turnaround</li>
+          <li><span>✔</span> Direct ROI Roadmap</li>
+        </ul>
+      </div>
+
+      <!-- RIGHT SIDE: THE FORM -->
+      <div class="contact-form-wrap">
+        <form id="contactForm" action="https://formspree.io/f/xzdopdyz" method="POST">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Full Name" required />
+            <input type="email" name="email" placeholder="Work Email" required />
+          </div>
+          
+          <input type="text" name="store" placeholder="Shopify / Website URL" required />
+          
+          <div class="spend-input-group">
+            <label for="spend">Monthly Ad Spend ($)</label>
+            <select name="spend" id="spend" required>
+              <option value="" disabled selected>Select Spend Range</option>
+              <option value="10k-50k">$10k - $50k</option>
+              <option value="50k-150k">$50k - $150k</option>
+              <option value="150k+">$150k+</option>
+            </select>
+          </div>
+          
+          <button type="submit" class="btn btn-full">Request My Forensic Audit</button>
+        </form>
+        <p id="formMessage"></p>
+      </div>
+
+    </div>
+  </div>
+</section>
+  
+  <footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="logo-wrap">
+        <h2 class="logo">Converge</h2>
+        <span class="logo-dot"></span>
+      </div>
+      <p>Precision attribution for high-growth DTC brands. Stop guessing, start scaling.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Platform</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-links">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Get in Touch</h4>
+      <p>Questions? Reach out to our data team.</p>
+      <a href="mailto:hello@converge.ai" class="footer-email">hello@converge.ai</a>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; 2026 Converge Intelligence. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
